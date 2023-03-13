@@ -1,0 +1,32 @@
+# Ignore build artifacts
+build/
+dist/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+.env/
+
+# Ignore logs and cache files
+*.log
+__pycache__/
+
+# Ignore sensitive or private files
+secrets.json
+credentials.ini
+
+# Ignore compiled binaries
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+
+# Ignore Node.js modules
+node_modules/
